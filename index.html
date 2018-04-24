@@ -1,7 +1,7 @@
 <html>
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <title>Data Collection Dashboard</title>
 </head>
 <body>
@@ -11,16 +11,26 @@
     <h2 align="center">Gauges</h2>
     <div class="row">
       <div class="col-md-4">
-        <h2 align="center">Temperature</h2>
-        <iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/apps/plugins/224865"></iframe>
+        <div class="panel panel-default">
+    <div class="panel-heading"><h2 align="center">Temperature</h2></div>
+    <div class="panel-body"><iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/apps/plugins/224865"></iframe></div>
+  </div> 
     </div>
 <div class="col-md-4">
-  <h2 align="center">Humidity</h2>
+  <div class="panel panel-default">
+    <div class="panel-heading"><h2 align="center">Humidity</h2></div>
+    <div class="panel-body">
   <iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/apps/plugins/212506"></iframe>
 </div>
+</div>
+</div>
 <div class="col-md-4">
-  <h2 align="center">Dew Point</h2>
+  <div class="panel panel-default">
+    <div class="panel-heading"><h2 align="center">Dew Point</h2></div>
+    <div class="panel-body">
   <iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/apps/plugins/224854"></iframe>
+</div>
+</div>
 </div>
 <div class="col-md-4">
   <h2 align="center">Pressure</h2>
