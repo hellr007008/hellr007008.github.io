@@ -4,9 +4,11 @@
 </head>
 <body>
 <table border=2 bordercolor="#0000FF">
-<tr><td colspan="2">
+<tr colspan="2">
 <h1 align="center" color="#00FFFF">Data Collection Dashboard</h1>
-</td></tr>
+</tr>
+
+<h2 align="center">Gauges</h2>
 <tr><td>
   <h2 align="center">Temperature</h2>
   <iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/apps/plugins/224865"></iframe>
@@ -35,4 +37,39 @@
   <h2 align="center">Altitude</h2>
   <iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/apps/plugins/224868"></iframe>
 </td></tr>
+</table>
+
+<h2 align="center">Graphically</h2>
+<table border=2 bordercolor="#0000FF">
+<tr><td>
+  <h2 align="center">Temperature</h2>
+  <iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/431975/charts/5?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15"></iframe>
+</td>
+<td>
+  <h2 align="center">Humidity</h2>
+  <iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/431975/charts/2?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15"></iframe>
+</td>
+<td>
+<h2 align="center">Dew Point</h2>
+<iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/431975/charts/3?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15"></iframe>
+</td>
+</tr>
+<tr><td>
+  <h2 align="center">Pressure</h2>
+  <iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/431975/charts/4?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15"></iframe>
+</td>
+<td>
+<h2 align="center">Light</h2>
+<iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/431975/charts/6?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15"></iframe>
+</td>
+<td>
+<h2 align="center">Rain</h2>
+<iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/431975/charts/7?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15"></iframe>
+</td>
+</tr>
+<tr><td>
+  <h2 align="center">Altitude</h2>
+  <iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/431975/charts/8?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line"></iframe>
+</td></tr>
+</table>
 </html>
